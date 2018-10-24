@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../style/css/regist.css">
+    <link rel="stylesheet" href="../style/bootstrap/bootstrap.min.css">
+    <script type="text/javascript" src="../style/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../style/jqBox/jquery-3.1.0.js"></script>
+    <script type="text/javascript" src="../style/js/regist.js"></script>
+  
+</head>
+<body>
+<header>
+</header>
+<section>
+    <form class="form-horizontal" method="post" action="../jsp/regist.jsp" onsubmit="return verif()">
+        <div class="content">
+            <div class="login_square">
+                <div class="logo_head">
+                    <span id="logoHead">欢迎注册邮箱</span>
+                </div>
+                <div class="logo_content">
+                    <div class="form-group">
+                        <label class="control-label col-md-2"><span class="regist_star">*</span>邮箱地址</label>
+                        <div class="col-md-10"><input type="email" class="form-control" id="user" name="email" onblur="verfEmail(this)" required><span id="insertTest"></span></div>
+                        <div class="tips">
+                            <span>6~18个字符，可使用字母、数字、下划线，需以字母开头</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2"><span class="regist_star">*</span>密码</label>
+                        <div class="col-md-10"><input type="password" class="form-control"id="pwd" required name="pwd"></div>
+                        <div class="tips1">
+                            <span>6~16个字符，区分大小写</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2"><span class="regist_star">*</span>确认密码</label>
+                        <div class="col-md-10"><input type="password" class="form-control"id="iden_pwd" required></div>
+                        <div class="tips2">
+                            <span>请再次填写密码</span>
+                        </div>
+                    </div>
+                    <div class="logo_btn">
+                        <input type="submit"  value="注册" id="register" class="btn-success" name="submit">
+                    </div>
+                </div>
+                <div class="logo_footer">
+
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </form>
+</section>
+<footer>
+</footer>
+</body>
+<script>
+    var test = document.getElementById("insertTest");
+    if(test.innerText=="账号已被注册"){
+        test.style.color="red";
+    }
+    else{
+        test.style.color="green";
+    }
+</script>
+</html>

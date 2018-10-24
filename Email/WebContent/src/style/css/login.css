@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    min-height:7%;
+    background-color: yellow;
+}
+section{
+    position: absolute;
+    top: 7%;
+    bottom: 7%;
+    width: 100%;
+    min-height:660px;
+    background-color: #9d9d9d;
+}
+.content{
+    width: 80%;
+    margin:0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    min-height: 7%;
+    background-color: red;
+
+}
+.login_square{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    border:1px solid red;
+    margin-left: 60%;
+    background-color: #fff;
+}
+.logo_head{
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: ;
+    border-bottom: 1px solid #888888;
+}
+.logo_head #logoHead{
+    font-size: 20px;
+}
+.clear{
+    height: 500px;
+}
+#user,#pwd{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    height:40px;
+}
+#user{
+    top: 20%;
+}
+#pwd{
+    top: 40%;
+}
+.logo_btn{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+.logo_btn #login{
+    margin-right: 30px;
+}
+.logo_btn #login,.logo_btn #register{
+    width: 100px;
+    height: 40px;
+}

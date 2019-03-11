@@ -1,0 +1,15 @@
+#total{
+    /*margin-left: 1em;*/
+    width: 100%;
+    height: 75px;
+}
+#logo{
+    display: inline-block;
+    width: 220px;
+    height: 75px;
+}
+#logo img{
+    width: 220px;
+    height: 75px;
+}
+

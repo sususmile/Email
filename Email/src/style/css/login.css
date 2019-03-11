@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    min-height:50px;
+    background-color:#58b2dc;
+
+}
+header div{
+    margin: 0 auto;
+    width: 60%;
+    line-height: 50px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+section{
+    width: 100%;
+    background:url("../../image/bac.jpg");
+}
+.content{
+    width: 80%;
+    margin:0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+footer{
+    width: 100%;
+    min-height: 40px;
+    background-color: white;
+}
+footer div{
+    text-align: center;
+}
+footer span{
+    line-height:40px;
+    padding-left:1em ;
+}
+.login_square{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    border:1px solid #adadad;
+    border-radius: 10px;
+    margin-left: 60%;
+    background-color: #fff;
+}
+.logo_head{
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #888888;
+}
+.logo_head #logoHead{
+    font-size: 20px;
+}
+.clear{
+    height: 500px;
+}
+#user,#pwd{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    height:40px;
+}
+#user{
+    top: 20%;
+}
+#pwd{
+    top: 40%;
+}
+.logo_btn{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+.logo_btn #login{
+    margin-right: 30px;
+}
+.logo_btn #login,.logo_btn #register{
+    width: 100px;
+    height: 40px;
+}

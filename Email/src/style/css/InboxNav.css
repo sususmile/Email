@@ -1,0 +1,50 @@
+html{
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+}
+
+#bottom{
+	position:fixed;
+    top:95%;
+    left:45%;
+}
+ul{
+    padding-left: 1em !important;
+}
+a{
+    text-decoration: none !important;
+}
+li{
+    list-style: none;
+    border-bottom:1px solid #000 !important;
+    padding:2em 1em !important;
+}
+ul{
+	padding:0px !important;
+	margin-top:0px !important;
+}
+li:hover{
+	background-color:red !important;
+	margin-left:0px !important;
+}
+#date{
+	position:absolute !important;
+	left:70% !important;
+}
+#item{
+	position:absolute !important;
+	left:10% !important;
+}
+.sm-lg{
+	width:200px !important;
+	height:20px;
+}
+.modal-dialog{
+	position:absolute !important;
+	top:25%;
+	left:20%;
+	}

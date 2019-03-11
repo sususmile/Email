@@ -1,0 +1,58 @@
+#topText{
+    width: 80px;
+    height: 20px;
+    background-color: #a5deea;
+    padding: 10px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+#secText {
+    width: 100%;
+    height: 20px;
+    background-color: #a5deea;
+    padding: 10px 15px;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+#secText input{
+    width: 60px;
+    padding: 0.3em 0;
+    border-radius: 5px;
+    border:1px solid #999;
+    background-color: #fff;
+}
+#Maintext{
+    width: 100%;
+    height: 90%;
+    background-color: #a5deea;
+}
+#recive,#theme,#editText{
+    padding-left: 30px;
+    margin-bottom: 1em;
+    padding-top: 1em;
+}
+#recive span,#theme span,#editText span {
+    display: inline-block;
+    width: 60px;
+    padding-right: 0.5em;
+}
+#recive input,#theme input{
+    width: 90%;
+    height: 20px;
+    line-height: 20px;
+}
+#editText textarea{
+    width: 90%;
+    height: 330px;
+    vertical-align: top;
+    resize: none;
+    word-break: break-all;
+}
+#file{
+    margin-left: 100px;
+}
+#send{
+    font-size: small;
+    margin-left: 100px;
+}

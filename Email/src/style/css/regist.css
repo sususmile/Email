@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    min-height:50px;
+    background-color:#58b2dc;
+}
+header div{
+    margin: 0 auto;
+    width: 60%;
+    line-height: 50px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+section{
+    width: 100%;
+    background:url("../../image/bac.jpg");
+}
+.content{
+    width: 80%;
+    margin:0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+footer{
+    width: 100%;
+    min-height: 40px;
+    background-color: white;
+}
+footer div{
+    text-align: center;
+}
+footer span{
+    line-height:40px;
+    padding-left:1em ;
+}
+.login_square{
+    position: absolute;
+    min-height: 500px;
+    width: 80%;
+    border:1px solid #adadad;
+    margin:0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.logo_head{
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #888888;
+}
+.logo_head #logoHead{
+    font-size: 20px;
+}
+.clear{
+    height: 500px;
+}
+#user,#pwd,#iden_pwd{
+    position: absolute;
+    width: 80%;
+    height:40px;
+}
+.logo_btn{
+   text-align: center;
+    margin-top: 3em;
+}
+.logo_btn #register{
+    width: 100px;
+    height: 40px;
+}
+.form-group{
+    margin-top: 5em;
+}
+.btn-success{
+    border: none;
+}
+.tips{
+    position: absolute;
+    top: 35%;
+    left: 18%;
+}
+.tips1{
+    position: absolute;
+    top: 55%;
+    left: 18%;
+}
+.tips2{
+    position: absolute;
+    top: 75%;
+    left: 18%;
+}
+.tips span{
+    font-size: 1em;
+    color:#999;
+}
+.tips1 span{
+    font-size: 1em;
+    color:#999;
+}
+.tips2 span{
+    font-size: 1em;
+    color:#999;
+}
+.regist_star{
+    color:red;
+}
+#insertTest{
+	position: absolute;
+    color: red;
+    top: 15%;
+    left: 85%;
+}
+
